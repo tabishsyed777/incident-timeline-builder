@@ -1,0 +1,218 @@
+[
+  {
+    "q": "Timeline for atlas",
+    "a": "2025-05-01T09:00:00Z queue stalled\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "atlas-0",
+      "atlas-1",
+      "atlas-2"
+    ]
+  },
+  {
+    "q": "First event for atlas",
+    "a": "2025-05-01T09:00:00Z queue stalled",
+    "ids": [
+      "atlas-0"
+    ]
+  },
+  {
+    "q": "Last event for atlas",
+    "a": "2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "atlas-2"
+    ]
+  },
+  {
+    "q": "Elapsed time for atlas",
+    "a": "1200 seconds",
+    "ids": [
+      "atlas-0",
+      "atlas-2"
+    ]
+  },
+  {
+    "q": "Root cause for atlas",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Timeline for birch",
+    "a": "2025-05-01T09:00:00Z cache expired\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "birch-0",
+      "birch-1",
+      "birch-2"
+    ]
+  },
+  {
+    "q": "First event for birch",
+    "a": "2025-05-01T09:00:00Z cache expired",
+    "ids": [
+      "birch-0"
+    ]
+  },
+  {
+    "q": "Last event for birch",
+    "a": "2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "birch-2"
+    ]
+  },
+  {
+    "q": "Elapsed time for birch",
+    "a": "1200 seconds",
+    "ids": [
+      "birch-0",
+      "birch-2"
+    ]
+  },
+  {
+    "q": "Root cause for birch",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Timeline for coral",
+    "a": "2025-05-01T09:00:00Z worker stopped\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "coral-0",
+      "coral-1",
+      "coral-2"
+    ]
+  },
+  {
+    "q": "First event for coral",
+    "a": "2025-05-01T09:00:00Z worker stopped",
+    "ids": [
+      "coral-0"
+    ]
+  },
+  {
+    "q": "Last event for coral",
+    "a": "2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "coral-2"
+    ]
+  },
+  {
+    "q": "Elapsed time for coral",
+    "a": "1200 seconds",
+    "ids": [
+      "coral-0",
+      "coral-2"
+    ]
+  },
+  {
+    "q": "Root cause for coral",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Timeline for delta",
+    "a": "2025-05-01T09:00:00Z disk full\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "delta-0",
+      "delta-1",
+      "delta-2"
+    ]
+  },
+  {
+    "q": "First event for delta",
+    "a": "2025-05-01T09:00:00Z disk full",
+    "ids": [
+      "delta-0"
+    ]
+  },
+  {
+    "q": "Last event for delta",
+    "a": "2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "delta-2"
+    ]
+  },
+  {
+    "q": "Elapsed time for delta",
+    "a": "1200 seconds",
+    "ids": [
+      "delta-0",
+      "delta-2"
+    ]
+  },
+  {
+    "q": "Root cause for delta",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Timeline for elm",
+    "a": "2025-05-01T09:00:00Z replica delayed\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "elm-0",
+      "elm-1",
+      "elm-2"
+    ]
+  },
+  {
+    "q": "First event for elm",
+    "a": "2025-05-01T09:00:00Z replica delayed",
+    "ids": [
+      "elm-0"
+    ]
+  },
+  {
+    "q": "Last event for elm",
+    "a": "2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "elm-2"
+    ]
+  },
+  {
+    "q": "Elapsed time for elm",
+    "a": "1200 seconds",
+    "ids": [
+      "elm-0",
+      "elm-2"
+    ]
+  },
+  {
+    "q": "Root cause for elm",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Timeline for fern",
+    "a": "2025-05-01T09:00:00Z job failed\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "fern-0",
+      "fern-1",
+      "fern-2"
+    ]
+  },
+  {
+    "q": "First event for fern",
+    "a": "2025-05-01T09:00:00Z job failed",
+    "ids": [
+      "fern-0"
+    ]
+  },
+  {
+    "q": "Last event for fern",
+    "a": "2025-05-01T09:20:00Z service restored",
+    "ids": [
+      "fern-2"
+    ]
+  },
+  {
+    "q": "Elapsed time for fern",
+    "a": "1200 seconds",
+    "ids": [
+      "fern-0",
+      "fern-2"
+    ]
+  },
+  {
+    "q": "Root cause for fern",
+    "a": null,
+    "ids": []
+  }
+]

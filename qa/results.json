@@ -1,0 +1,416 @@
+{
+  "automated_gates_pass": true,
+  "metrics": {
+    "cases": 30,
+    "answer_accuracy": 1,
+    "citation_exact": 1,
+    "recall_at_5": 1.0,
+    "grounded_answer_exact": 1,
+    "refusal": 1,
+    "concurrent_accuracy": 1,
+    "p50_ms": 6.724638999969557,
+    "p95_ms": 16.365441000061764,
+    "records": 18,
+    "source_bytes": 2851,
+    "concurrent_readers": 50,
+    "golden_sha256": "395b07461ca0e0b926c1da63946c7585dc1d4870cbb1e2cfe356746927da8634"
+  },
+  "observations": [
+    {
+      "question": "Timeline for atlas",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z queue stalled\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+      "method": "timeline",
+      "citations": [
+        {
+          "id": "atlas-0",
+          "source": "source.json#/1"
+        },
+        {
+          "id": "atlas-1",
+          "source": "source.json#/2"
+        },
+        {
+          "id": "atlas-2",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "First event for atlas",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z queue stalled",
+      "method": "first event",
+      "citations": [
+        {
+          "id": "atlas-0",
+          "source": "source.json#/1"
+        }
+      ]
+    },
+    {
+      "question": "Last event for atlas",
+      "status": "answered",
+      "answer": "2025-05-01T09:20:00Z service restored",
+      "method": "last event",
+      "citations": [
+        {
+          "id": "atlas-2",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Elapsed time for atlas",
+      "status": "answered",
+      "answer": "1200 seconds",
+      "method": "elapsed time",
+      "citations": [
+        {
+          "id": "atlas-0",
+          "source": "source.json#/1"
+        },
+        {
+          "id": "atlas-2",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Root cause for atlas",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Timeline for birch",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z cache expired\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+      "method": "timeline",
+      "citations": [
+        {
+          "id": "birch-0",
+          "source": "source.json#/4"
+        },
+        {
+          "id": "birch-1",
+          "source": "source.json#/5"
+        },
+        {
+          "id": "birch-2",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "First event for birch",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z cache expired",
+      "method": "first event",
+      "citations": [
+        {
+          "id": "birch-0",
+          "source": "source.json#/4"
+        }
+      ]
+    },
+    {
+      "question": "Last event for birch",
+      "status": "answered",
+      "answer": "2025-05-01T09:20:00Z service restored",
+      "method": "last event",
+      "citations": [
+        {
+          "id": "birch-2",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Elapsed time for birch",
+      "status": "answered",
+      "answer": "1200 seconds",
+      "method": "elapsed time",
+      "citations": [
+        {
+          "id": "birch-0",
+          "source": "source.json#/4"
+        },
+        {
+          "id": "birch-2",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Root cause for birch",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Timeline for coral",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z worker stopped\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+      "method": "timeline",
+      "citations": [
+        {
+          "id": "coral-0",
+          "source": "source.json#/7"
+        },
+        {
+          "id": "coral-1",
+          "source": "source.json#/8"
+        },
+        {
+          "id": "coral-2",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "First event for coral",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z worker stopped",
+      "method": "first event",
+      "citations": [
+        {
+          "id": "coral-0",
+          "source": "source.json#/7"
+        }
+      ]
+    },
+    {
+      "question": "Last event for coral",
+      "status": "answered",
+      "answer": "2025-05-01T09:20:00Z service restored",
+      "method": "last event",
+      "citations": [
+        {
+          "id": "coral-2",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Elapsed time for coral",
+      "status": "answered",
+      "answer": "1200 seconds",
+      "method": "elapsed time",
+      "citations": [
+        {
+          "id": "coral-0",
+          "source": "source.json#/7"
+        },
+        {
+          "id": "coral-2",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Root cause for coral",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Timeline for delta",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z disk full\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+      "method": "timeline",
+      "citations": [
+        {
+          "id": "delta-0",
+          "source": "source.json#/10"
+        },
+        {
+          "id": "delta-1",
+          "source": "source.json#/11"
+        },
+        {
+          "id": "delta-2",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "First event for delta",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z disk full",
+      "method": "first event",
+      "citations": [
+        {
+          "id": "delta-0",
+          "source": "source.json#/10"
+        }
+      ]
+    },
+    {
+      "question": "Last event for delta",
+      "status": "answered",
+      "answer": "2025-05-01T09:20:00Z service restored",
+      "method": "last event",
+      "citations": [
+        {
+          "id": "delta-2",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Elapsed time for delta",
+      "status": "answered",
+      "answer": "1200 seconds",
+      "method": "elapsed time",
+      "citations": [
+        {
+          "id": "delta-0",
+          "source": "source.json#/10"
+        },
+        {
+          "id": "delta-2",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Root cause for delta",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Timeline for elm",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z replica delayed\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+      "method": "timeline",
+      "citations": [
+        {
+          "id": "elm-0",
+          "source": "source.json#/13"
+        },
+        {
+          "id": "elm-1",
+          "source": "source.json#/14"
+        },
+        {
+          "id": "elm-2",
+          "source": "source.json#/12"
+        }
+      ]
+    },
+    {
+      "question": "First event for elm",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z replica delayed",
+      "method": "first event",
+      "citations": [
+        {
+          "id": "elm-0",
+          "source": "source.json#/13"
+        }
+      ]
+    },
+    {
+      "question": "Last event for elm",
+      "status": "answered",
+      "answer": "2025-05-01T09:20:00Z service restored",
+      "method": "last event",
+      "citations": [
+        {
+          "id": "elm-2",
+          "source": "source.json#/12"
+        }
+      ]
+    },
+    {
+      "question": "Elapsed time for elm",
+      "status": "answered",
+      "answer": "1200 seconds",
+      "method": "elapsed time",
+      "citations": [
+        {
+          "id": "elm-0",
+          "source": "source.json#/13"
+        },
+        {
+          "id": "elm-2",
+          "source": "source.json#/12"
+        }
+      ]
+    },
+    {
+      "question": "Root cause for elm",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Timeline for fern",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z job failed\n2025-05-01T09:08:00Z recovery started\n2025-05-01T09:20:00Z service restored",
+      "method": "timeline",
+      "citations": [
+        {
+          "id": "fern-0",
+          "source": "source.json#/16"
+        },
+        {
+          "id": "fern-1",
+          "source": "source.json#/17"
+        },
+        {
+          "id": "fern-2",
+          "source": "source.json#/15"
+        }
+      ]
+    },
+    {
+      "question": "First event for fern",
+      "status": "answered",
+      "answer": "2025-05-01T09:00:00Z job failed",
+      "method": "first event",
+      "citations": [
+        {
+          "id": "fern-0",
+          "source": "source.json#/16"
+        }
+      ]
+    },
+    {
+      "question": "Last event for fern",
+      "status": "answered",
+      "answer": "2025-05-01T09:20:00Z service restored",
+      "method": "last event",
+      "citations": [
+        {
+          "id": "fern-2",
+          "source": "source.json#/15"
+        }
+      ]
+    },
+    {
+      "question": "Elapsed time for fern",
+      "status": "answered",
+      "answer": "1200 seconds",
+      "method": "elapsed time",
+      "citations": [
+        {
+          "id": "fern-0",
+          "source": "source.json#/16"
+        },
+        {
+          "id": "fern-2",
+          "source": "source.json#/15"
+        }
+      ]
+    },
+    {
+      "question": "Root cause for fern",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    }
+  ]
+}
